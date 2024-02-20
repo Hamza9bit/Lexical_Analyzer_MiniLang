@@ -477,8 +477,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "2020478.l"
-#line 2 "2020478.l"
+#line 1 "2020296.l"
+#line 2 "2020296.l"
 #include <stdio.h>
 #line 484 "lex.yy.c"
 #line 485 "lex.yy.c"
@@ -698,7 +698,7 @@ YY_DECL
 		}
 
 	{
-#line 6 "2020478.l"
+#line 6 "2020296.l"
 
 #line 704 "lex.yy.c"
 
@@ -759,73 +759,73 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 "2020478.l"
+#line 7 "2020296.l"
 {printf("TOKEN: Datatype, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 8 "2020478.l"
+#line 8 "2020296.l"
 {printf("TOKEN: Keyword, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 10 "2020478.l"
+#line 10 "2020296.l"
 {printf("TOKEN: Assignment, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "2020478.l"
+#line 11 "2020296.l"
 {printf("TOKEN: Delimiter, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 13 "2020478.l"
+#line 13 "2020296.l"
 {printf("TOKEN: IDENTIFIER, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 15 "2020478.l"
+#line 15 "2020296.l"
 {printf("TOKEN: STRING_VALUE, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 16 "2020478.l"
+#line 16 "2020296.l"
 {printf("TOKEN: INTEGER_VALUE, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 17 "2020478.l"
+#line 17 "2020296.l"
 {printf("TOKEN: DECIMAL_VALUE, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 19 "2020478.l"
+#line 19 "2020296.l"
 {printf("TOKEN: OPERATOR, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 21 "2020478.l"
+#line 21 "2020296.l"
 {printf("TOKEN: PARENTHESIS, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 11:
 /* rule 11 can match eol */
 YY_RULE_SETUP
-#line 23 "2020478.l"
+#line 23 "2020296.l"
 ;
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 25 "2020478.l"
+#line 25 "2020296.l"
 {printf("INVALID TOKEN, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 26 "2020478.l"
+#line 26 "2020296.l"
 {printf("INVALID TOKEN, LEXEME: %s\n", yytext);}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 27 "2020478.l"
+#line 27 "2020296.l"
 ECHO;
 	YY_BREAK
 #line 832 "lex.yy.c"
@@ -1833,7 +1833,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 27 "2020478.l"
+#line 27 "2020296.l"
 
 
 int main() {;
